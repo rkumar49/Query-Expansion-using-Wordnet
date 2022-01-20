@@ -116,3 +116,5 @@ for hit in res['hits']['hits']:
     print(f"{hit['_source']['title']} : {hit['highlight']}")
     print(hit["_score"])
     print('----------------------------------------------')
+
+
